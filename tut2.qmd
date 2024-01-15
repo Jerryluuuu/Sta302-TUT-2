@@ -4,6 +4,19 @@ author: "Jerry Lu (Yen-Chia Lu)"
 format: pdf
 ---
 ```{r}
+install.packages("usethis")
+library(usethis)
+create_github_token()
+```
+
+```{r}
+install.packages("gitcreds")
+library(gitcreds)
+gitcreds_set()
+```
+
+
+```{r}
 #### Preamble ####
 # Purpose: Get data on 2021 Toronto shelter usage and make table
 # Author: Jerry Lu (Yen-Chia Lu)
